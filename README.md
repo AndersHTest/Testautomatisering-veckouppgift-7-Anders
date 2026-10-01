@@ -1,6 +1,15 @@
 # Playwright
 ## Vecka 40
 
+<!-- TOC -->
+* [Status uppgifter](#status-uppgifter)
+  * [Diskutera i grupp](#1-diskutera-i-grupp)
+  * [Öva på Regex](#2-öva-på-regex)
+  * [Öva på user stories](#3-öva-på-user-stories)
+  * [Öva på E2E tests](#4-öva-på-e2e-tests)
+<!-- TOC -->
+<br>
+
 ### Status uppgifter
 
 | Uppgift                         | Status | 🟠🟡🟢 |
@@ -10,8 +19,9 @@
 | 3 Öva på user stories           | 100%   | 🟢     |
 | 4 Öva på E2E tests              | 100%   | 🟢     |
 
+<br>
 
-### 1. Diskussion
+### 1. Diskutera i grupp
 
 #### 1a) Vilka strängar matchas av det reguljära uttrycket: "ab" ?
 <pre>
@@ -95,6 +105,7 @@ def test_view_sprint_planning(page: Page):
 ````
 ---
 ````
+<br>
 
 ### 2. Öva på Regex
 
@@ -143,6 +154,7 @@ def test_view_sprint_planning(page: Page):
 ````
 /[\w-\.]+@([\w-]+\.)+[\w-]{2,4}/g
 ````
+<br>
 
 ### 3. Öva på user stories
 ````
@@ -206,7 +218,7 @@ Scenario:
 * Kontrollera att den första paragrafen är på engelska, den ska börja på "What day".
 ````
 
-
+<br>
 
 ### 4. Öva på E2E tests
 
