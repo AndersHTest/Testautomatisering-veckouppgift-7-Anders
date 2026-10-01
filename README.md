@@ -69,7 +69,7 @@ C. Uttrycket kommer matcha vokaler i en sträng.
 D. Strängar som innehåller enskilda siffror eller siffror i grupp.
 F. Strängar som innehåller siffror i formatet nnnn-nn-nn. T.ex 1111-22-33.
 ````
-#### 2a) Betrakta https://lejonmanen.github.io/agile-helper/ . Skriv en user story som <br>beskriver att användaren ska kunna läsa hur man gör en "sprint retrospective".
+#### 2a) Betrakta https://lejonmanen.github.io/agile-helper/. Skriv en user story som <br>beskriver att användaren ska kunna läsa hur man gör en "sprint retrospective".
 <pre>
 Som en student vill jag kunna surfa in på agile helper och läsa på om<br>Sprint retrospective för att avsluta en sprint på korrekt sätt.
 </pre>
@@ -145,12 +145,12 @@ def test_view_sprint_planning(page: Page):
 /\d+,?\d+\s?kr|\d+\s?kr/g
 ````
 
-#### 5a) Skriv ett regex som matchar en e-postadress..
+#### 5a) Skriv ett regex som matchar en e-postadress...
 ````
 /[\w-\.]+@([\w-]+\.)+([a-z]|[0-9]){2,4}/g
 ````
 
-#### 5b) Gör ett regex som matchar en komplett e-postadress enligt specifikationen..
+#### 5b) Gör ett regex som matchar en komplett e-postadress enligt specifikationen...
 ````
 /[\w-\.]+@([\w-]+\.)+[\w-]{2,4}/g
 ````
@@ -265,6 +265,7 @@ def test_page_header(page: Page):
     expect(heading).to_be_visible()
 ````
 ````
+def test_page_language(page: Page):
     page.goto(base_url)
 
     page.get_by_test_id(re.compile("language-en")).click()
