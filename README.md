@@ -257,7 +257,6 @@ def test_sprint_review(page: Page):
 ````
 ````
 def test_page_header(page: Page):
-
     page.goto(base_url)
 
     heading = page.get_by_role("heading").get_by_text(re.compile("Agile helper"))
