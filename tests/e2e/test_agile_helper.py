@@ -1,5 +1,5 @@
 import re
-from playwright.sync_api import Page, expect, sync_playwright, TimeoutError as PlaywrightTimeoutError
+from playwright.sync_api import Page, expect
 
 
 base_url = "https://lejonmanen.github.io/agile-helper/"
