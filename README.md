@@ -27,7 +27,7 @@
 <pre>
 A. "a b"
 B. "aBBa"
-C. <b><i><u><span style="color:green">"sabotör"</span></u></i></b>
+C. <b><i><ins><span style="color:green">"sabotör"</span></ins></i></b>
 </pre>
 #### 1b) Betrakta uttrycket "nisse". Vad skriver jag för att matcha både "Nisse", "NISSE" och "nisse"?
 <pre>
@@ -35,7 +35,7 @@ T.ex '/nisse/gi' för att matcha alla. Eller '(?i)nisse' för att matcha sträng
 </pre>
 #### 1c) Vilka strängar matchas av "a*n" ?
 <pre>
-A. <b><i><u><span style="color:green">"an"</span></u></i></b>
+A. <b><i><ins><span style="color:green">"an"</span></ins></i></b>
 B. "amerikan"
 C. "naturlig"
 D. "annandag"
@@ -43,7 +43,7 @@ D. "annandag"
 #### 1d) Vilka strängar matchas av "[ae]n" ?
 <pre>
 A. "naiv"
-B. <b><i><u><span style="color:green">"inconsequential"</span></u></i></b>
+B. <b><i><ins><span style="color:green">"inconsequential"</span></ins></i></b>
 C. "bae"
 </pre>
 
@@ -51,15 +51,15 @@ C. "bae"
 <pre>
 A. "je"
 B. "jee"
-C. <b><i><u><span style="color:green">"jeppe"</span></u></i></b>
-D. <b><i><u><span style="color:green">"je je"</span></u></i></b>
+C. <b><i><ins><span style="color:green">"jeppe"</span></ins></i></b>
+D. <b><i><ins><span style="color:green">"je je"</span></ins></i></b>
 </pre>
 #### 1f) Vilka strängar matchas av "\san?\s"
 <pre>
 A. "sansad"
 B. " annan "
-C. <b><i><u><span style="color:green">"    an   na   an   "</span></u></i></b>
-D. <b><i><u><span style="color:green">"be a darling"</span></u></i></b>
+C. <b><i><ins><span style="color:green">"    an   na   an   "</span></ins></i></b>
+D. <b><i><ins><span style="color:green">"be a darling"</span></ins></i></b>
 </pre>
 #### 1g) Skriv ner med egna ord, vad följande uttryck matchar. "Strängar som innehåller…"
 ````
