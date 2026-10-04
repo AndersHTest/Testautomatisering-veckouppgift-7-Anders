@@ -71,7 +71,7 @@ F. Strängar som innehåller siffror i formatet nnnn-nn-nn. T.ex 1111-22-33.
 ````
 #### 2a) Betrakta https://lejonmanen.github.io/agile-helper/. Skriv en user story som <br>beskriver att användaren ska kunna läsa hur man gör en "sprint retrospective".
 <pre>
-Som en student vill jag kunna surfa in på agile helper och läsa på om<br>Sprint retrospective för att avsluta en sprint på korrekt sätt.
+Som student vill jag kunna surfa in på agile helper och läsa på om<br>Sprint retrospective för att avsluta en sprint på korrekt sätt.
 </pre>
 #### 2b) Skriv ner ett testscenario för user storyn.
 ````
@@ -198,7 +198,7 @@ Scenario:
 ````
 ````
 User Story 4:
-Som en användare vill jag att rubriken (h1) ska vara Agile helper så att jag vet att jag är på rätt sida.
+Som användare vill jag att rubriken (h1) ska vara Agile helper så att jag vet att jag är på rätt sida.
 
 test_page_header
 
@@ -208,7 +208,7 @@ Scenario:
 ````
 ````
 User Story 5:
-Som en icke svensktalande person vill jag kunna byta språk på hemsidan till engelska så att jag förstår.
+Som icke svensktalande person vill jag kunna byta språk på hemsidan till engelska så att jag förstår.
 
 test_page_language
 
