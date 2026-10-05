@@ -67,7 +67,7 @@ A. Strängar som innehåller "line" eller "lines".
 B. Strängar som börjar med ett eller flera a och avslutas med ö. T.ex "aaaaaaaaö" eller "aö"
 C. Uttrycket kommer matcha vokaler i en sträng.
 D. Strängar som innehåller enskilda siffror eller siffror i grupp.
-F. Strängar som innehåller siffror i formatet nnnn-nn-nn. T.ex 1111-22-33.
+E. Strängar som innehåller siffror i formatet nnnn-nn-nn. T.ex 1111-22-33.
 ````
 #### 2a) Betrakta https://lejonmanen.github.io/agile-helper/. Skriv en user story som <br>beskriver att användaren ska kunna läsa hur man gör en "sprint retrospective".
 <pre>
