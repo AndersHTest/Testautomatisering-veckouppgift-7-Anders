@@ -36,9 +36,9 @@ T.ex '/nisse/gi' för att matcha alla. Eller '(?i)nisse' för att matcha sträng
 #### 1c) Vilka strängar matchas av "a*n" ?
 <pre>
 A. <b><i><ins><span style="color:green">"an"</span></ins></i></b>
-B. "amerikan"
-C. "naturlig"
-D. "annandag"
+B. <b><i><ins><span style="color:green">"amerikan"</span></ins></i></b>
+C. <b><i><ins><span style="color:green">"naturlig"</span></ins></i></b>
+D. <b><i><ins><span style="color:green">"annandag"</span></ins></i></b>
 </pre>
 #### 1d) Vilka strängar matchas av "[ae]n" ?
 <pre>
